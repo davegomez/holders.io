@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { colors } from '../styles/theme'
 
 const routes = {
   '/': 'Home',
@@ -23,18 +24,18 @@ const Links = (props) => {
       }
 
       li {
-        color: rgb(255, 255, 255);
+        color: ${colors.white};
         list-style: none;
         margin-right: 20px;
       }
 
       .active {
-        border-bottom: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid ${colors.white};
         margin-bottom: -2px;
       }
 
       a {
-        color: rgb(255, 255, 255);
+        color: ${colors.white};
         text-decoration: none;
       }
     `}</style>

@@ -1,12 +1,13 @@
 import Link from 'next/link'
+import { colors } from '../styles/theme'
 
 const Ribbon = () => (
   <div>
     <svg width="187" height="187" xmlns="http://www.w3.org/2000/svg">
-      <path d="M57.22-.064l129.91 129.91-.037 56.53L.668-.047" fill="#000" fillRule="evenodd"/>
+      <path d="M57.22-.064l129.91 129.91-.037 56.53L.668-.047" fill={colors.black} fillRule="evenodd"/>
     </svg>
     <Link href='https://github.com/davegomez/holders.io'>
-      <a className="github-link" aria-label="View source on Github">Fork me on GitHub</a>
+      <a aria-label="View source on Github">Fork me on GitHub</a>
     </Link>
 
     <style jsx>{`
@@ -18,7 +19,7 @@ const Ribbon = () => (
 
     a {
       position: absolute;
-      color: rgb(255, 255, 255);
+      color: ${colors.white};
       text-decoration: none;
       transform: rotate(45deg);
       padding: 10px 6px 10px 22px;
