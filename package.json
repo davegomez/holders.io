@@ -1,0 +1,22 @@
+{
+  "name": "holders.io",
+  "version": "0.1.0",
+  "description": "Image placeholders service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davegomez/holders.io.git"
+  },
+  "author": "David Gomez <dg.dave@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^2.2.0",
+    "normalize.css": "^7.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
