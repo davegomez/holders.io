@@ -7,10 +7,7 @@
     "dev": "next",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/davegomez/holders.io.git"
-  },
+  "repository": "https://github.com/davegomez/holders.io.git",
   "author": "David Gomez <dg.dave@gmail.com>",
   "license": "MIT",
   "dependencies": {
