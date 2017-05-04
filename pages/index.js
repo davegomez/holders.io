@@ -1,8 +1,11 @@
 import Layout from '../components/layout'
+import ThemeSelector from '../components/theme-selector'
 
-const Index = (props) => (
+const getTheme = theme => console.log(theme)
+
+const Index = props => (
   <Layout url={ props.url }>
-    <p>Hello Next.js</p>
+    <ThemeSelector onClick={getTheme} />
   </Layout>
 )
 
