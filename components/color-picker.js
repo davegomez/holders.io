@@ -5,7 +5,10 @@ import { colors } from '../styles/theme'
 class ColorPicker extends Component {
   constructor(props) {
     super(props)
-    this.state = { displayColorPicker: false }
+    this.state = {
+      displayColorPicker: false,
+      color: props.color
+    }
   }
 
   handleClick = () => {
@@ -16,6 +19,11 @@ class ColorPicker extends Component {
     this.setState({ displayColorPicker: false })
   }
 
+  handleChangeComplete = (color) => {
+    console.log(color.hex)
+    this.setState({ color: color.hex });
+  };
+
   render() {
     console.log(this.state)
 
@@ -25,14 +33,17 @@ class ColorPicker extends Component {
         <div className='picker-frame'>
           <div className='picker'
             onClick={ this.handleClick }
-            style={{ backgroundColor: this.props.color }}
+            style={{ backgroundColor: this.state.color }}
           ></div>
         </div>
 
         { this.state.displayColorPicker ?
           <div className='popover'>
             <div className='cover' onClick={ this.handleClose }/>
-            <SketchPicker />
+            <SketchPicker
+              color={ this.state.color }
+              onChangeComplete={ this.handleChangeComplete }
+            />
           </div> : null }
 
         <style jsx>{`

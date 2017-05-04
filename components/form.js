@@ -27,7 +27,7 @@ class Form extends Component {
           <div>
             <Input label='Size' type='text' placeholder='800x600' />
             <Input label='Text' type='text' placeholder='Placeholder text' />
-            <ColorPicker label='Background' color='#000000' />
+            <ColorPicker label='Background' color='#000' />
           </div>
         </form>
 
