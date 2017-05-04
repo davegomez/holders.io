@@ -1,9 +1,25 @@
+import { colors, fonts } from './theme'
+
 const BaseStyles = () => (
   <style jsx global>{`
-    body {
-      color: rgb(74, 74, 74);
-      font-family: 'Source Code Pro', monospace;
+    html {
+      box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    body,
+    input {
+      color: ${colors.text};
+      font-family: ${fonts.primary};
       font-size: 16px;
+    }
+
+    label {
+      display: flex;
+      flex-direction: column;
     }
   `}</style>
 )

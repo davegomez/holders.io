@@ -31,7 +31,7 @@ class ThemeSelector extends Component {
         <style jsx>{`
           div {
             display: flex;
-            marging-bottom: 50px;
+            margin-bottom: 50px;
           }
         `}</style>
       </div>
