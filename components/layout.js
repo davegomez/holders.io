@@ -3,7 +3,7 @@ import BaseStyles from '../styles/base'
 import NavBar from './navbar'
 import Ribbon from './ribbon'
 
-const Layout = (props) => (
+const Layout = props => (
   <div style={{ position: 'relative' }}>
     <Head>
       <title>holders.io</title>

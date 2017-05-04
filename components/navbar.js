@@ -1,6 +1,6 @@
 import Links from './links'
 
-const NavBar = (props) => (
+const NavBar = props => (
   <div className='navbar'>
     <Links url={ props.url } />
     <style jsx>{`

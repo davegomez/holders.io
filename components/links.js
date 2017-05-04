@@ -7,9 +7,7 @@ const routes = {
   '/about': 'About'
 }
 
-const Links = (props) => {
-  console.log(props.url.pathname)
-  return (
+const Links = props => (
   <ul>
     { Object.keys(routes).map(route => route === props.url.pathname ?
       (<li key={ route }>{ routes[route] }</li>) :
@@ -41,6 +39,5 @@ const Links = (props) => {
     `}</style>
   </ul>
 )
-}
 
 export default Links
