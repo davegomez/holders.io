@@ -14,14 +14,15 @@ const ThemeButton = props => {
     >
       <style jsx>{`
         button {
-          background-color: ${colors.white};
+          background-color: ${colors.background};
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
           border: 1px solid ${colors.primary};
           border-radius: 4px;
           cursor: pointer;
-          margin-right: 20px;
+          margin-right: 40px;
+          position: relative;
           height: 90px;
           width: 90px;
         }
@@ -30,8 +31,17 @@ const ThemeButton = props => {
           outline: 0;
         }
 
-        .active {
-          border-color: ${colors.secondary}
+        .active::before {
+          content: '✓';
+          background-color: ${colors.primary};
+          color: ${colors.white};
+          border-radius: 50%;
+          border: 1px solid ${colors.white};
+          font-size: 14px;
+          padding: 4px 7px;
+          position: absolute;
+          top: 4px;
+          right: 4px;
         }
       `}</style>
     </button>
