@@ -1,7 +1,7 @@
 import { colors } from '../styles/theme'
 
 const ThemeButton = props => {
-  const backgroundUrl = `url('/static/img/themes/${props.theme}.png')`
+  const backgroundUrl = `url('/static/img/themes/${props.theme}.jpg')`
   const buttonStyle = props.theme !== 'empty' ?
     { backgroundImage: backgroundUrl } : null
 
