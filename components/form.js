@@ -3,20 +3,13 @@ import ColorPicker from './color-picker'
 import Input from './input'
 
 class Form extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      background: '#ffffff',
-      filter: '',
-      foreground: '#000000',
-      size: '',
-      text: '',
-      type: ''
-    }
+  state = {
+    background: '#fff',
+    foreground: '#000',
+    baseUrl: 'holders.io/'
   }
 
-  handleChange = (event) => {
+  handleChange = event => {
 
   }
 
@@ -27,7 +20,7 @@ class Form extends Component {
           <div>
             <Input label='Size' type='text' placeholder='800x600' />
             <Input label='Text' type='text' placeholder='Placeholder text' />
-            <ColorPicker label='Background' color='#000' />
+            <ColorPicker label='Background' color={this.state.background} />
           </div>
         </form>
 
