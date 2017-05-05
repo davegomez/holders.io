@@ -229,4 +229,7 @@ $RECYCLE.BIN/
 # Next.js
 .next/
 
+# Custom
+.idea/
+
 # End of https://www.gitignore.io/api/osx,node,linux,windows,jetbrains,sublimetext,visualstudiocode
