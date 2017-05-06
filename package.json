@@ -11,9 +11,14 @@
   "author": "David Gomez <dg.dave@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "create-react-class": "^15.5.2",
     "next": "^2.3.1",
     "react": "^15.5.4",
     "react-color": "^2.11.7",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-select": "1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0"
   }
 }
