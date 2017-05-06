@@ -20,13 +20,10 @@ class ColorPicker extends Component {
   }
 
   handleChangeComplete = (color) => {
-    console.log(color.hex)
     this.setState({ color: color.hex });
   };
 
   render() {
-    console.log(this.state)
-
     return (
       <label>
         { this.props.label }
