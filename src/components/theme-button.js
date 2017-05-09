@@ -19,7 +19,6 @@ const ThemeButton = props => {
           background-repeat: no-repeat;
           background-size: cover;
           border: 1px solid ${colors.primary};
-          border-radius: 4px;
           cursor: pointer;
           height: 90px;
           margin-right: 40px;
