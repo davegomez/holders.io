@@ -22,7 +22,7 @@ const Input = (props) => {
         }
 
         input::placeholder {
-          color: ${colors.placeholder};
+          color: ${colors.pholderText};
         }
       `}</style>
     </label>

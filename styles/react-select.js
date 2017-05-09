@@ -25,10 +25,10 @@ const ReactSelectStyles = () => (
       opacity: 0.35;
     }
     .Select-control {
-      background-color: #fff;
+      background-color: ${colors.secondary};
       border-color: ${colors.primary};
       border: 1px solid ${colors.primary};
-      color: ${colors.placeholder};
+      color: ${colors.pholderText};
       cursor: default;
       display: table;
       border-spacing: 0;
@@ -49,7 +49,7 @@ const ReactSelectStyles = () => (
     .is-open > .Select-control {
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 0;
-      background: #fff;
+      background: ${colors.secondary};
       border-color: ${colors.primary};
     }
     .is-open > .Select-control .Select-arrow {
@@ -67,7 +67,7 @@ const ReactSelectStyles = () => (
     .Select-placeholder,
     .Select--single > .Select-control .Select-value {
       bottom: 0;
-      color: ${colors.placeholder};
+      color: ${colors.pholderText};
       left: 0;
       line-height: 40px;
       padding-left: 10px;
@@ -82,7 +82,7 @@ const ReactSelectStyles = () => (
     }
     .has-value.Select--single > .Select-control .Select-value .Select-value-label,
     .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
-      color: #333;
+      color: ${colors.text};
     }
     .has-value.Select--single > .Select-control .Select-value a.Select-value-label,
     .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label {
@@ -145,8 +145,8 @@ const ReactSelectStyles = () => (
       height: 16px;
       box-sizing: border-box;
       border-radius: 50%;
-      border: 2px solid #ccc;
-      border-right-color: #333;
+      border: 2px solid ${colors.pholderBg};
+      border-right-color: ${colors.text};
       display: inline-block;
       position: relative;
       vertical-align: middle;
@@ -155,7 +155,7 @@ const ReactSelectStyles = () => (
       -webkit-animation: Select-animation-fadeIn 200ms;
       -o-animation: Select-animation-fadeIn 200ms;
       animation: Select-animation-fadeIn 200ms;
-      color: ${colors.primary};
+      color: ${colors.pholderText};
       cursor: pointer;
       display: table-cell;
       position: relative;
@@ -215,7 +215,7 @@ const ReactSelectStyles = () => (
     .Select-menu-outer {
       border-bottom-right-radius: 4px;
       border-bottom-left-radius: 4px;
-      background-color: #fff;
+      background-color: ${colors.secondary};
       border: 1px solid ${colors.primary};
       border-top: 0;
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
@@ -234,7 +234,7 @@ const ReactSelectStyles = () => (
     }
     .Select-option {
       box-sizing: border-box;
-      background-color: #fff;
+      background-color: ${colors.secondary};
       color: ${colors.text};
       cursor: pointer;
       display: block;
@@ -245,16 +245,12 @@ const ReactSelectStyles = () => (
       border-bottom-left-radius: 4px;
     }
     .Select-option.is-selected {
-      background-color: #f5faff;
-      /* Fallback color for IE 8 */
-      background-color: rgba(0, 126, 255, 0.04);
-      color: #333;
+      background-color: ${colors.selected};
+      color: ${colors.text};
     }
     .Select-option.is-focused {
-      background-color: #ebf5ff;
-      /* Fallback color for IE 8 */
-      background-color: rgba(0, 126, 255, 0.08);
-      color: #333;
+      background-color: ${colors.focused};
+      color: ${colors.text};
     }
     .Select-option.is-disabled {
       color: #cccccc;
@@ -262,7 +258,7 @@ const ReactSelectStyles = () => (
     }
     .Select-noresults {
       box-sizing: border-box;
-      color: ${colors.primary}999;
+      color: ${colors.primary};
       cursor: default;
       display: block;
       padding: 8px 10px;
@@ -276,13 +272,9 @@ const ReactSelectStyles = () => (
       margin-left: 5px;
     }
     .Select--multi .Select-value {
-      background-color: #ebf5ff;
-      /* Fallback color for IE 8 */
-      background-color: rgba(0, 126, 255, 0.08);
+      background-color: ${colors.focused};
       border-radius: 2px;
-      border: 1px solid #c2e0ff;
-      /* Fallback color for IE 8 */
-      border: 1px solid rgba(0, 126, 255, 0.24);
+      border: 1px solid ${colors.selectedBorder};
       color: #007eff;
       display: inline-block;
       font-size: 0.9em;
@@ -314,27 +306,21 @@ const ReactSelectStyles = () => (
       cursor: pointer;
       border-bottom-left-radius: 2px;
       border-top-left-radius: 2px;
-      border-right: 1px solid #c2e0ff;
-      /* Fallback color for IE 8 */
-      border-right: 1px solid rgba(0, 126, 255, 0.24);
+      border-right: 1px solid ${colors.selectedBorder};
       padding: 1px 5px 3px;
     }
     .Select--multi .Select-value-icon:hover,
     .Select--multi .Select-value-icon:focus {
-      background-color: #d8eafd;
-      /* Fallback color for IE 8 */
       background-color: rgba(0, 113, 230, 0.08);
       color: #0071e6;
     }
     .Select--multi .Select-value-icon:active {
-      background-color: #c2e0ff;
-      /* Fallback color for IE 8 */
-      background-color: rgba(0, 126, 255, 0.24);
+      background-color: ${colors.selectedBorder};
     }
     .Select--multi.is-disabled .Select-value {
       background-color: #fcfcfc;
       border: 1px solid #e3e3e3;
-      color: #333;
+      color: ${colors.text};
     }
     .Select--multi.is-disabled .Select-value-icon {
       cursor: not-allowed;

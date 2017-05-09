@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { SketchPicker } from 'react-color'
+import { ChromePicker } from 'react-color'
 import { colors } from '../styles/theme'
 
 class ColorPicker extends Component {
@@ -26,22 +26,23 @@ class ColorPicker extends Component {
   render() {
     return (
       <label>
-        { this.props.label }
+        {this.props.label}
         <div className='picker-frame'>
           <div className='picker'
-            onClick={ this.handleClick }
+            onClick={this.handleClick}
             style={{ backgroundColor: this.state.color }}
           ></div>
         </div>
 
-        { this.state.displayColorPicker ?
+        {this.state.displayColorPicker ?
           <div className='popover'>
-            <div className='cover' onClick={ this.handleClose }/>
-            <SketchPicker
-              color={ this.state.color }
-              onChangeComplete={ this.handleChangeComplete }
+            <div className='cover' onClick={this.handleClose} />
+            <ChromePicker
+              color={this.state.color}
+              disableAlpha={true}
+              onChangeComplete={this.handleChangeComplete}
             />
-          </div> : null }
+          </div> : null}
 
         <style jsx>{`
           label {
@@ -50,13 +51,14 @@ class ColorPicker extends Component {
 
           .picker-frame {
             border: 1px solid ${colors.primary};
+            height: 40px;
             margin-top: 4px;
             padding: 4px;
-            height: 40px;
             width: 140px;
           }
 
           .picker {
+            cursor: pointer;
             height: 100%;
             width: 100%;
           }
@@ -68,11 +70,11 @@ class ColorPicker extends Component {
           }
 
           .cover {
-            position: fixed;
-            top: 0;
-            right: 0;
             bottom: 0;
             left: 0;
+            position: fixed;
+            right: 0;
+            top: 0;
           }
         `}</style>
       </label>
