@@ -1,6 +1,6 @@
-import Layout from '../components/layout'
-import ThemeSelector from '../components/theme-selector'
-import Form from '../components/form'
+import Layout from '../src/components/layout'
+import ThemeSelector from '../src/components/theme-selector'
+import Form from '../src/components/form'
 
 const getTheme = theme => console.log(theme)
 

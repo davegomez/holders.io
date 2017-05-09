@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import Layout from '../src/components/layout'
 
 const About = props => (
   <Layout url={ props.url }>
