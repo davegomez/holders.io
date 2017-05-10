@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ThemeSelector from './theme-selector'
 import ColorPicker from './color-picker'
 import Input from './input'
 import Selection from './selection'
@@ -18,13 +19,7 @@ const filters = [
 
 class Form extends Component {
   state = {
-    theme: '',
-    background: '',
-    foreground: '',
-    size: '',
-    text: '',
-    filter: '',
-    type: '',
+    theme: 'empty',
     url: 'https://holders.io'
   }
 
@@ -68,6 +63,7 @@ class Form extends Component {
   render() {
     return (
       <div>
+        <ThemeSelector onClick={() => {}} />
         <form>
           <div className='row'>
             <Input label='Size' type='text' placeholder='800x600' onChange={this.onInputChange} />

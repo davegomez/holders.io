@@ -6,7 +6,8 @@ export const colors = {
   pholderBg: 'rgba(244, 244, 244, 1)',
   focused: 'rgba(180, 180, 180, 0.08)',
   selected: 'rgba(180, 180, 180, 0.04)',
-  selectedBorder: 'rgba(180, 180, 180, 0.24)'
+  selectedBorder: 'rgba(180, 180, 180, 0.24)',
+  outline: 'rgba(74, 144, 226, 1)'
 }
 
 export const fonts = {

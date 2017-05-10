@@ -17,6 +17,14 @@ const BaseStyles = () => (
       font-size: 16px;
     }
 
+    input {
+      outline: none;
+    }
+
+    input:focus {
+      border-color: ${colors.outline};
+    }
+
     label {
       display: flex;
       flex-direction: column;

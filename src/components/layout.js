@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import BaseStyles from '../styles/base'
 import NavBar from './navbar'
-import Ribbon from './ribbon'
 
 const Layout = props => (
   <div style={{ position: 'relative' }}>
@@ -11,7 +10,6 @@ const Layout = props => (
       <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet" />
     </Head>
 
-    <Ribbon />
     <NavBar url={ props.url } />
 
     <div className='container'>
@@ -19,7 +17,6 @@ const Layout = props => (
     </div>
 
     <BaseStyles />
-
     <style jsx>{`
       .container {
         margin: 0 auto;

@@ -19,6 +19,7 @@ const Links = props => (
     <style jsx>{`
       ul {
         display: flex;
+        padding: 0;
       }
 
       li {
