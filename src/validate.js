@@ -9,9 +9,16 @@ const isValidColor = input => {
   return colorRe.test(input)
 }
 
+const isValidText = input => {
+  const textRe = /^[a-zA-Z0-9 _\-+=.,:;?@!$&\'\"()*+=.]{1,30}$/
+  const text = input.trim().replace(/['"]/g, '\$&')
+  return textRe.test(text)
+}
+
 const validationMap = {
   size: isValidSize,
-  color: isValidColor
+  color: isValidColor,
+  text: isValidText
 }
 
 export default (value, type) => {

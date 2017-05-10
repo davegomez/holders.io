@@ -43,3 +43,16 @@ test('Is not a valid HEX color value', () => {
   expect(validate('c4d4e4f', 'color')).toBe(false)
   expect(validate('c4g4e4', 'color')).toBe(false)
 })
+
+test('Is a valid text input', () => {
+  expect(validate('foo bar', 'text')).toBe(true)
+  expect(validate(' foo _-+=.,:;?@!$&\'"()*+=. bar', 'text')).toBe(true)
+  expect(validate("foo _-+=.,:;?@!$&'\"()*+=. bar ", 'text')).toBe(true)
+})
+
+test('Is not a valid text input', () => {
+  expect(validate('foo bar /', 'text')).toBe(false)
+  expect(validate('#hex', 'text')).toBe(false)
+  expect(validate('[foo] (bar)', 'text')).toBe(false)
+  expect(validate('foo _-+=.,:;?@!$&\'"()*+=. bar baz', 'text')).toBe(false)
+})
