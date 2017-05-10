@@ -21,6 +21,10 @@ const Input = (props) => {
           width: 300px;
         }
 
+        input:focus {
+          border-color: ${colors.outline};
+        }
+
         input::placeholder {
           color: ${colors.pholderText};
         }

@@ -21,10 +21,6 @@ const BaseStyles = () => (
       outline: none;
     }
 
-    input:focus {
-      border-color: ${colors.outline};
-    }
-
     label {
       display: flex;
       flex-direction: column;
