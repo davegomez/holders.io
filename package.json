@@ -12,6 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "create-react-class": "^15.5.2",
+    "instagram_js_filter": "^1.4.0",
+    "jimp": "^0.2.27",
     "next": "^2.3.1",
     "react": "^15.5.4",
     "react-color": "^2.11.7",

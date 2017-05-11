@@ -12,9 +12,33 @@ const types = [
 ]
 
 const filters = [
-  { value: 'greyscale', label: 'Greyscale' },
-  { value: 'blackwhite', label: 'Black & White' },
-  { value: 'sepia', label: 'Sepia' }
+  { value: 'lark', label: 'Lark'},
+  { value: 'reyes', label: 'Reyes'},
+  { value: 'juno', label: 'Juno'},
+  { value: 'slumber', label: 'Slumber'},
+  { value: 'crema', label: 'Crema'},
+  { value: 'ludwig', label: 'Ludwig'},
+  { value: 'aden', label: 'Aden'},
+  { value: 'perpetua', label: 'Perpetua'},
+  { value: 'amaro', label: 'Amaro'},
+  { value: 'mayfair', label: 'Mayfair'},
+  { value: 'rise', label: 'Rise'},
+  { value: 'hudson', label: 'Hudson'},
+  { value: 'valencia', label: 'Valencia'},
+  { value: 'xpro2', label: 'Xpro2'},
+  { value: 'sierra', label: 'Sierra'},
+  { value: 'willow', label: 'Willow'},
+  { value: 'lofi', label: 'Lofi'},
+  { value: 'earlybird', label: 'Earlybird'},
+  { value: 'brannan', label: 'Brannan'},
+  { value: 'inkwell', label: 'Inkwell'},
+  { value: 'hefe', label: 'Hefe'},
+  { value: 'nashville', label: 'Nashville'},
+  { value: 'sutro', label: 'Sutro'},
+  { value: 'toaster', label: 'Toaster'},
+  { value: 'walden', label: 'Walden'},
+  { value: 'nineteenSeventySeven', label: 'NineteenSeventySeven'},
+  { value: 'kelvin', label: 'Kelvin'}
 ]
 
 class Form extends Component {
