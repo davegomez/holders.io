@@ -1,7 +1,7 @@
 const isValidSize = input => {
   const widthRe = /^\d+$/
   const fullSizeRe = /^\d+x\d+$/
-  return widthRe.test(input) || fullSizeRe.test(input)
+  return input === '' ? true : (widthRe.test(input) || fullSizeRe.test(input))
 }
 
 const isValidColor = input => {
@@ -12,7 +12,7 @@ const isValidColor = input => {
 const isValidText = input => {
   const textRe = /^[a-zA-Z0-9 _\-+=.,:;?@!$&\'\"()*+=.]{1,30}$/
   const text = input.trim().replace(/['"]/g, '\$&')
-  return textRe.test(text)
+  return input === '' ? true : textRe.test(text)
 }
 
 const validationMap = {
@@ -21,6 +21,6 @@ const validationMap = {
   text: isValidText
 }
 
-export default (value, type) => {
+export default (type, value) => {
   return validationMap[type](value)
 }
