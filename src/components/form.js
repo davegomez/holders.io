@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import validate from '../validate'
 import ThemeSelector from './theme-selector'
 import ColorPicker from './color-picker'
 import Input from './input'
 import Selection from './selection'
 import { colors, fonts } from '../styles/theme'
+
+const validTypes = ['gif', 'jpg', 'png']
 
 const types = [
   { value: 'gif', label: 'gif' },
@@ -44,25 +47,32 @@ const filters = [
 class Form extends Component {
   state = {
     theme: 'empty',
-    url: 'https://holders.io'
+    url: 'https://holders.io',
+    sizeIsValid: true,
+    textIsValid: true
   }
 
-  onInputChange = event => {
-    const {id, value } = event.target
-    this.buildUrl({ [id]: value })
+  handleInputBlur = event => {
+    const { id, value } = event.target
+    const isValid = validate(id, value)
+    this.setState({ [`${id}IsValid`]: isValid })
+    if (isValid) this.buildUrl({ [id]: value })
   }
 
-  onTypeChange = value => {
-    this.buildUrl({ type: value })
+  onTypeSelection = value => {
+    this.handleSelection({ type: value || '' })
   }
 
-  onFilterChange = value => {
-    this.setState({ filter: value })
-    this.buildUrl()
+  onFilterSelection = value => {
+    this.handleSelection({ filter: value || '' })
+  }
+
+  handleSelection = selection => {
+    this.setState(selection)
+    this.buildUrl(selection)
   }
 
   buildUrl = state => {
-
     const protocol = 'https://'
     const theme = this.state.theme ? `${this.state.theme}/` : ''
     const baseUrl = 'holders.io'
@@ -73,8 +83,6 @@ class Form extends Component {
     const type = state.type ?
       `.${state.type}` :
       this.state.type ? `.${this.state.type}` : ''
-
-
 
     const url = `${protocol}${theme}${baseUrl}${size}${color}${text}${filter}${type}`
 
@@ -90,8 +98,20 @@ class Form extends Component {
         <ThemeSelector onClick={() => {}} />
         <form>
           <div className='row'>
-            <Input label='Size' type='text' placeholder='800x600' onChange={this.onInputChange} />
-            <Input label='Text' type='text' placeholder='Placeholder text' onChange={this.onInputChange} />
+            <Input
+              label='Size'
+              isValid={this.state.sizeIsValid}
+              type='text'
+              placeholder='800x600'
+              onBlur={this.handleInputBlur}
+            />
+            <Input
+              label='Text'
+              isValid={this.state.textIsValid}
+              type='text'
+              placeholder='Placeholder text'
+              onBlur={this.handleInputBlur}
+            />
             <ColorPicker label='Background' color='#fff' />
           </div>
           <div className='row'>
@@ -99,13 +119,13 @@ class Form extends Component {
               label='Type'
               value={this.state.type}
               options={types}
-              onChange={this.onTypeChange}
+              onChange={this.onTypeSelection}
             />
             <Selection
               label='Filter'
               value={this.state.filter}
               options={filters}
-              onChange={this.onFilterChange}
+              onChange={this.onFilterSelection}
             />
             <ColorPicker label='Foreground' color='#000' />
           </div>
@@ -135,7 +155,6 @@ class Form extends Component {
             margin-top: 4px;
             overflow: hidden;
             padding: 0 10px;
-            width: 880px;
           }
         `}</style>
       </div>

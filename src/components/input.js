@@ -10,7 +10,7 @@ const Input = props => {
         type={props.type}
         placeholder={props.placeholder}
         id={fieldName}
-        onChange={props.onChange}
+        onBlur={props.onBlur}
       />
 
       <style jsx>{`

@@ -8,11 +8,11 @@ const Selection = props => {
     <label htmlFor={fieldName}>
       {props.label}
       <Select
-        name={props.label.toLowerCase()}
-        options={props.options}
         placeholder={props.placeholder || 'Select...'}
-        simpleValue
+        options={props.options}
+        clearable={true}
         searchable={true}
+        simpleValue
         value={props.value}
         onChange={props.onChange}
       />
