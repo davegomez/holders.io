@@ -1,11 +1,12 @@
 import { colors } from '../styles/theme'
 
-const Input = (props) => {
+const Input = props => {
   const fieldName = props.label.toLowerCase()
   return (
     <label htmlFor={fieldName}>
       {props.label}
       <input
+        className={props.isValid ? null : 'invalid'}
         type={props.type}
         placeholder={props.placeholder}
         id={fieldName}
@@ -27,6 +28,12 @@ const Input = (props) => {
 
         input::placeholder {
           color: ${colors.pholderText};
+        }
+
+        .invalid,
+        .invalid:focus {
+          border-color: ${colors.errorOutline};
+          background-color: ${colors.errorBackground};
         }
       `}</style>
     </label>

@@ -7,7 +7,9 @@ export const colors = {
   focused: 'rgba(180, 180, 180, 0.08)',
   selected: 'rgba(180, 180, 180, 0.04)',
   selectedBorder: 'rgba(180, 180, 180, 0.24)',
-  outline: 'rgba(74, 144, 226, 1)'
+  outline: 'rgba(74, 144, 226, 1)',
+  errorBackground: 'rgba(208, 2, 27, 0.1)',
+  errorOutline: 'rgba(208, 2, 27, 1)',
 }
 
 export const fonts = {
