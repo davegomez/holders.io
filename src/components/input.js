@@ -4,7 +4,9 @@ const Input = props => {
   const fieldName = props.label.toLowerCase()
   return (
     <label htmlFor={fieldName}>
-      {props.label}
+      <span className={ props.required ? 'required': null }>
+        { props.label }
+      </span>
       <input
         className={props.isValid ? null : 'invalid'}
         type={props.type}
@@ -34,6 +36,18 @@ const Input = props => {
         .invalid:focus {
           border-color: ${colors.errorOutline};
           background-color: ${colors.errorBackground};
+        }
+
+        span {
+          position: relative;
+        }
+
+        .required::after {
+          color: ${colors.errorOutline};
+          content: '*';
+          left: 40px;
+          position: absolute;
+          top: -4px;
         }
       `}</style>
     </label>
