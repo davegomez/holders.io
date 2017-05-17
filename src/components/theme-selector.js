@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ThemeButton from '../components/theme-button'
 
-const themes = ['empty', 'puppy', 'kitty']
+const themes = ['empty', 'puppy', 'kitten']
 
 class ThemeSelector extends Component {
   constructor(props) {
