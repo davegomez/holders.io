@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ChromePicker } from 'react-color'
+import { SketchPicker } from 'react-color'
 import { colors } from '../styles/theme'
 
 class ColorPicker extends Component {
@@ -19,8 +19,12 @@ class ColorPicker extends Component {
     this.setState({ displayColorPicker: false })
   }
 
-  handleChangeComplete = (color) => {
+  handleChangeComplete = color => {
     this.setState({ color: color.hex });
+    this.props.onChangeComplete(
+      this.props.label.toLowerCase(),
+      color.hex.slice(1)
+    )
   };
 
   render() {
@@ -37,7 +41,7 @@ class ColorPicker extends Component {
         {this.state.displayColorPicker ?
           <div className='popover'>
             <div className='cover' onClick={this.handleClose} />
-            <ChromePicker
+            <SketchPicker
               color={this.state.color}
               disableAlpha={true}
               onChangeComplete={this.handleChangeComplete}

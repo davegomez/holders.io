@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import validate from '../validate'
+import buildUrl from '../uri-builder'
 import ThemeSelector from './theme-selector'
 import ColorPicker from './color-picker'
 import Input from './input'
@@ -9,87 +10,90 @@ import { validTypes, types, filters } from '../data'
 
 class Form extends Component {
   state = {
-    theme: 'empty',
-    url: 'https://holders.io',
     sizeIsValid: true,
     textIsValid: true
+  }
+
+  handleThemeSelection = state => {
+    this.setState(state)
   }
 
   handleInputBlur = event => {
     const { id, value } = event.target
     const isValid = validate(id, value)
     this.setState({ [`${id}IsValid`]: isValid })
-    if (isValid) this.buildUrl({ [id]: value })
+    if (isValid) {
+      this.setState({ [id]: value })
+    } else {
+      this.setState({ [id]: '' })
+    }
   }
 
-  onTypeSelection = value => {
-    this.buildUrl({ type: value || '' })
+  handleTypeSelection = value => {
+    this.setState({ type: value || '' })
   }
 
-  onFilterSelection = value => {
-    this.buildUrl({ filter: value || '' })
+  handleFilterSelection = value => {
+    this.setState({ filter: value || '' })
   }
 
-  buildUrl = state => {
-    const protocol = 'https://'
-    const theme = this.state.theme ? `${this.state.theme}/` : ''
-    const baseUrl = 'holders.io'
-    const size = state.size ? `/${state.size}` : `/${this.state.size}`
-    const color = this.state.theme && this.state.background ? `/${this.state.background.slice(1)}` : ''
-    const text = state.text ? `/${state.text}` : `/${this.state.text}`
-    const filter = this.state.theme && this.state.filter ? `/${this.state.filter}` : ''
-    const type = state.type ?
-      `.${state.type}` :
-      this.state.type ? `.${this.state.type}` : ''
+  handleChangeComplete = (id, color) => {
+    this.setState({ [id]: color });
+  };
 
-    const url = `${protocol}${theme}${baseUrl}${size}${color}${text}${filter}${type}`
-
-    this.setState({
-      ...state,
-      url
-    })
+  handleOnClick = event => {
+    window.getSelection().selectAllChildren(event.target)
   }
 
   render() {
     return (
       <div>
-        <ThemeSelector onClick={() => {}} />
+        <ThemeSelector onClick={ this.handleThemeSelection } />
         <form>
           <div className='row'>
             <Input
               label='Size'
-              isValid={this.state.sizeIsValid}
+              isValid={ this.state.sizeIsValid }
               type='text'
               placeholder='800x600'
-              onBlur={this.handleInputBlur}
+              required
+              onBlur={ this.handleInputBlur }
             />
             <Input
               label='Text'
-              isValid={this.state.textIsValid}
+              isValid={ this.state.textIsValid }
               type='text'
               placeholder='Placeholder text'
-              onBlur={this.handleInputBlur}
+              onBlur={ this.handleInputBlur }
             />
-            <ColorPicker label='Background' color='#fff' />
+            <ColorPicker
+              label='Background'
+              color='#fff'
+              onChangeComplete={ this.handleChangeComplete }
+            />
           </div>
           <div className='row'>
             <Selection
-              label='Type'
-              value={this.state.type}
-              options={types}
-              onChange={this.onTypeSelection}
+              label='Filter'
+              value={ this.state.filter }
+              options={ filters }
+              onChange={ this.handleFilterSelection }
             />
             <Selection
-              label='Filter'
-              value={this.state.filter}
-              options={filters}
-              onChange={this.onFilterSelection}
+              label='Type'
+              value={ this.state.type}
+              options={ types }
+              onChange={ this.handleTypeSelection }
             />
-            <ColorPicker label='Foreground' color='#000' />
+            <ColorPicker
+              label='Foreground'
+              color='#000'
+              onChangeComplete={ this.handleChangeComplete }
+            />
           </div>
           <div className='row-url'>
-            {'Holder URL'}
-            <div className='url-display'>{this.state.url}</div>
+            { 'Holder URL' }
+            <div className='url-display' onClick={ this.handleOnClick }>{ buildUrl(this.state) }</div>
           </div>
         </form>
 

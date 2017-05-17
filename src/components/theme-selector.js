@@ -10,9 +10,9 @@ class ThemeSelector extends Component {
   }
 
   handleClick = event => {
-    const theme = event.target.dataset.theme
-    this.setState({ theme })
-    this.props.onClick(theme)
+    const state = { theme: event.target.dataset.theme }
+    this.setState(state)
+    this.props.onClick(state)
   }
 
   render() {
