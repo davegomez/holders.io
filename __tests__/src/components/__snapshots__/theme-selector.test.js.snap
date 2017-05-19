@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeSelector component 1`] = `
+<div
+  data-jsx={2110134670}
+>
+  <button
+    className="active"
+    data-jsx={43889984}
+    data-theme="empty"
+    onClick={[Function]}
+    style={null}
+  />
+  <button
+    className={null}
+    data-jsx={43889984}
+    data-theme="puppy"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundImage": "url('/static/img/themes/puppy.jpg')",
+      }
+    }
+  />
+  <button
+    className={null}
+    data-jsx={43889984}
+    data-theme="kitten"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundImage": "url('/static/img/themes/kitten.jpg')",
+      }
+    }
+  />
+</div>
+`;

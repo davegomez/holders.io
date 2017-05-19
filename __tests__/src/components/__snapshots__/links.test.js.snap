@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Links component 1`] = `
+<ul
+  data-jsx={1218288577}
+>
+  <li
+    data-jsx={1218288577}
+  >
+    Home
+  </li>
+  <li
+    className="active"
+    data-jsx={1218288577}
+  >
+    <a
+      data-jsx={1218288577}
+      href="/docs"
+      onClick={[Function]}
+    >
+      Documentation
+    </a>
+  </li>
+  <li
+    className="active"
+    data-jsx={1218288577}
+  >
+    <a
+      data-jsx={1218288577}
+      href="/about"
+      onClick={[Function]}
+    >
+      About
+    </a>
+  </li>
+</ul>
+`;

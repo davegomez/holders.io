@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeButton component active 1`] = `
+<button
+  className="active"
+  data-jsx={43889984}
+  data-theme="foo"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url('/static/img/themes/foo.jpg')",
+    }
+  }
+/>
+`;
+
+exports[`ThemeButton component active 2`] = `
+<button
+  className="active"
+  data-jsx={43889984}
+  data-theme="foo"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url('/static/img/themes/foo.jpg')",
+    }
+  }
+/>
+`;
+
+exports[`ThemeButton component active and no theme 1`] = `
+<button
+  className="active"
+  data-jsx={43889984}
+  data-theme={null}
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url('/static/img/themes/undefined.jpg')",
+    }
+  }
+/>
+`;
+
+exports[`ThemeButton component active and no theme 2`] = `
+<button
+  className="active"
+  data-jsx={43889984}
+  data-theme={null}
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundImage": "url('/static/img/themes/undefined.jpg')",
+    }
+  }
+/>
+`;
+
+exports[`ThemeButton component inactive 1`] = `
+<button
+  className={null}
+  data-jsx={43889984}
+  data-theme="empty"
+  onClick={[Function]}
+  style={null}
+/>
+`;
+
+exports[`ThemeButton component inactive 2`] = `
+<button
+  className={null}
+  data-jsx={43889984}
+  data-theme="empty"
+  onClick={[Function]}
+  style={null}
+/>
+`;

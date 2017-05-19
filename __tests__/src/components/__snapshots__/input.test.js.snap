@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input not required component 1`] = `
+<label
+  data-jsx={4212527588}
+  htmlFor="foo"
+>
+  <span
+    className={null}
+    data-jsx={4212527588}
+  >
+    foo
+  </span>
+  <input
+    className="invalid"
+    data-jsx={4212527588}
+    id="foo"
+    onBlur={undefined}
+    placeholder="baz"
+    type="bar"
+  />
+</label>
+`;
+
+exports[`Input required component 1`] = `
+<label
+  data-jsx={4212527588}
+  htmlFor="foo"
+>
+  <span
+    className="required"
+    data-jsx={4212527588}
+  >
+    foo
+  </span>
+  <input
+    className={null}
+    data-jsx={4212527588}
+    id="foo"
+    onBlur={undefined}
+    placeholder="baz"
+    type="bar"
+  />
+</label>
+`;

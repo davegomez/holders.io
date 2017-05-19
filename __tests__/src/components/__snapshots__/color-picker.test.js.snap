@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorPicker component 1`] = `
+<label
+  data-jsx={3085166267}
+>
+  foo
+  <div
+    className="picker-frame"
+    data-jsx={3085166267}
+  >
+    <div
+      className="picker"
+      data-jsx={3085166267}
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#abc",
+        }
+      }
+    />
+  </div>
+</label>
+`;
