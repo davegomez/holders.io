@@ -16,6 +16,7 @@ const Links = props => (
       </li>)
     )}
 
+    { /*language=SCSS*/ }
     <style jsx>{`
       ul {
         display: flex;

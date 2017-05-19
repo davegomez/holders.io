@@ -28,6 +28,8 @@ class ThemeSelector extends Component {
             />
           ))
         }
+
+        { /*language=SCSS*/ }
         <style jsx>{`
           div {
             display: flex;

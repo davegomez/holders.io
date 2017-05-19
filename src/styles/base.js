@@ -1,5 +1,6 @@
 import { colors, fonts } from './theme'
 
+// language=SCSS
 const BaseStyles = () => (
   <style jsx global>{`
     html {

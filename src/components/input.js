@@ -15,6 +15,7 @@ const Input = props => {
         onBlur={props.onBlur}
       />
 
+      { /*language=SCSS*/ }
       <style jsx>{`
         input {
           border: 1px solid ${colors.primary};

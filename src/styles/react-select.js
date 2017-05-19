@@ -1,5 +1,6 @@
 import { colors, fonts } from './theme'
 
+// language=SCSS
 const ReactSelectStyles = () => (
   <style jsx global>{`
     .Select {

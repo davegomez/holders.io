@@ -97,6 +97,7 @@ class Form extends Component {
           </div>
         </form>
 
+        { /*language=SCSS*/ }
         <style jsx>{`
           .row {
             display: flex;

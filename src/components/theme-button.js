@@ -12,6 +12,8 @@ const ThemeButton = props => {
       style={buttonStyle}
       data-theme={props.theme || null}
     >
+
+      { /*language=SCSS*/ }
       <style jsx>{`
         button {
           background-color: ${colors.pholderBg};

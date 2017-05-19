@@ -9,6 +9,8 @@ const NowLogo = () => (
       <path d="M19.844 2.047l17.845 31.95H2z" strokeWidth="2"/>
       <path d="M36.085 33.59L19.235 3.23M36.85 33.59L20 3.23M35.32 33.59L19.233 4.05M34.553 33.59L19.233 4.872M18.468 4.872l16.85 28.718M33.787 33.59L18.467 5.692M30.723 27.026L24.596 16.36" strokeLinecap="square"/>
     </g>
+
+    { /*language=SCSS*/ }
     <style jsx>{`
       svg {
         width: 14px;
@@ -36,6 +38,8 @@ const Layout = props => (
     </footer>
 
     <BaseStyles />
+
+    { /*language=SCSS*/ }
     <style jsx>{`
       .container {
         margin: 0 auto;

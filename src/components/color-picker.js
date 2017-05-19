@@ -35,7 +35,7 @@ class ColorPicker extends Component {
           <div className='picker'
             onClick={this.handleClick}
             style={{ backgroundColor: this.state.color }}
-          ></div>
+          />
         </div>
 
         {this.state.displayColorPicker ?
@@ -48,6 +48,7 @@ class ColorPicker extends Component {
             />
           </div> : null}
 
+        { /*language=SCSS*/ }
         <style jsx>{`
           label {
             position: relative;

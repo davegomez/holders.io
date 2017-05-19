@@ -17,7 +17,8 @@ const Selection = props => {
         value={props.value}
         onChange={props.onChange}
       />
-    <ReactSelectStyles />
+
+      <ReactSelectStyles />
     </label>
   )
 }
