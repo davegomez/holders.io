@@ -13,6 +13,7 @@ const Selection = props => {
         clearable={true}
         searchable={true}
         simpleValue
+        instanceId={props.label}
         value={props.value}
         onChange={props.onChange}
       />
