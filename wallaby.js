@@ -2,7 +2,7 @@ module.exports = function (wallaby) {
   return {
     files: [
       'src/**/*.js',
-      '__tests__/src/test-utils.js',
+      '__tests__/src/utils.js',
       '!__tests__/**/*.test.js'
     ],
 
@@ -10,7 +10,7 @@ module.exports = function (wallaby) {
 
     filesWithNoCoverageCalculated: [
       'src/data.js',
-      '__tests__/src/test-utils.js'
+      '__tests__/src/utils.js'
     ],
 
     compilers: {
