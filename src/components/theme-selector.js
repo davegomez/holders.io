@@ -21,10 +21,10 @@ class ThemeSelector extends Component {
         {
           themes.map(theme => (
             <ThemeButton
-              key={theme}
-              theme={theme}
-              active={theme === this.state.theme ? true : false}
-              onClick={this.handleClick}
+              key={ theme }
+              theme={ theme }
+              active={ theme === this.state.theme }
+              onClick={ this.handleClick }
             />
           ))
         }

@@ -22,3 +22,2001 @@ exports[`ColorPicker component 1`] = `
   </div>
 </label>
 `;
+
+exports[`ColorPicker event handlers ColorPicker handleChangeComplete 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    data-jsx={3085166267}
+>
+    foo
+    <div
+        className="picker-frame"
+        data-jsx={3085166267}
+    >
+        <div
+            className="picker"
+            data-jsx={3085166267}
+            onClick={[Function]}
+            style={
+                Object {
+                    "backgroundColor": "#abc",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="popover"
+        data-jsx={3085166267}
+    >
+        <div
+            className="cover"
+            data-jsx={3085166267}
+            onClick={[Function]}
+        />
+        <ColorPicker
+            color="#abc"
+            disableAlpha={true}
+            onChangeComplete={[Function]}
+        />
+    </div>
+    <_class
+        css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+    /*@ sourceURL=color-picker.js */"
+        styleId={3085166267}
+    />
+</label>,
+  "nodes": Array [
+    <label
+      data-jsx={3085166267}
+>
+      foo
+      <div
+            className="picker-frame"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="picker"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "backgroundColor": "#abc",
+                            }
+                  }
+            />
+      </div>
+      <div
+            className="popover"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="cover"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+            />
+            <ColorPicker
+                  color="#abc"
+                  disableAlpha={true}
+                  onChangeComplete={[Function]}
+            />
+      </div>
+      <_class
+            css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+      /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+      /*@ sourceURL=color-picker.js */"
+            styleId={3085166267}
+      />
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ColorPicker
+        color="#abc"
+        label="foo"
+        onChangeComplete={[Function]}
+/>,
+      "_debugID": 7,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ColorPicker {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleChangeComplete": [Function],
+        "handleClick": [Function],
+        "handleClose": [Function],
+        "props": Object {
+          "color": "#abc",
+          "label": "foo",
+          "onChangeComplete": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "color": "#abc",
+          "displayColorPicker": true,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+        "_debugID": 8,
+        "_renderedOutput": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ColorPicker
+    color="#abc"
+    label="foo"
+    onChangeComplete={[Function]}
+/>,
+}
+`;
+
+exports[`ColorPicker event handlers ColorPicker handleClick 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    data-jsx={3085166267}
+>
+    foo
+    <div
+        className="picker-frame"
+        data-jsx={3085166267}
+    >
+        <div
+            className="picker"
+            data-jsx={3085166267}
+            onClick={[Function]}
+            style={
+                Object {
+                    "backgroundColor": "#abc",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="popover"
+        data-jsx={3085166267}
+    >
+        <div
+            className="cover"
+            data-jsx={3085166267}
+            onClick={[Function]}
+        />
+        <ColorPicker
+            color="#abc"
+            disableAlpha={true}
+            onChangeComplete={[Function]}
+        />
+    </div>
+    <_class
+        css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+    /*@ sourceURL=color-picker.js */"
+        styleId={3085166267}
+    />
+</label>,
+  "nodes": Array [
+    <label
+      data-jsx={3085166267}
+>
+      foo
+      <div
+            className="picker-frame"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="picker"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "backgroundColor": "#abc",
+                            }
+                  }
+            />
+      </div>
+      <div
+            className="popover"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="cover"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+            />
+            <ColorPicker
+                  color="#abc"
+                  disableAlpha={true}
+                  onChangeComplete={[Function]}
+            />
+      </div>
+      <_class
+            css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+      /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+      /*@ sourceURL=color-picker.js */"
+            styleId={3085166267}
+      />
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ColorPicker
+        color="#abc"
+        label="foo"
+        onChangeComplete={[Function]}
+/>,
+      "_debugID": 7,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ColorPicker {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleChangeComplete": [Function],
+        "handleClick": [Function],
+        "handleClose": [Function],
+        "props": Object {
+          "color": "#abc",
+          "label": "foo",
+          "onChangeComplete": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "color": "#abc",
+          "displayColorPicker": true,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+        "_debugID": 8,
+        "_renderedOutput": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ColorPicker
+    color="#abc"
+    label="foo"
+    onChangeComplete={[Function]}
+/>,
+}
+`;
+
+exports[`ColorPicker event handlers ColorPicker handleClose 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    data-jsx={3085166267}
+>
+    foo
+    <div
+        className="picker-frame"
+        data-jsx={3085166267}
+    >
+        <div
+            className="picker"
+            data-jsx={3085166267}
+            onClick={[Function]}
+            style={
+                Object {
+                    "backgroundColor": "#abc",
+                  }
+            }
+        />
+    </div>
+    <_class
+        css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+    /*@ sourceURL=color-picker.js */"
+        styleId={3085166267}
+    />
+</label>,
+  "nodes": Array [
+    <label
+      data-jsx={3085166267}
+>
+      foo
+      <div
+            className="picker-frame"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="picker"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "backgroundColor": "#abc",
+                            }
+                  }
+            />
+      </div>
+      <_class
+            css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+      /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+      /*@ sourceURL=color-picker.js */"
+            styleId={3085166267}
+      />
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ColorPicker
+        color="#abc"
+        label="foo"
+        onChangeComplete={[Function]}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ColorPicker {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleChangeComplete": [Function],
+        "handleClick": [Function],
+        "handleClose": [Function],
+        "props": Object {
+          "color": "#abc",
+          "label": "foo",
+          "onChangeComplete": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "color": "#abc",
+          "displayColorPicker": false,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+        "_debugID": 2,
+        "_renderedOutput": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ColorPicker
+    color="#abc"
+    label="foo"
+    onChangeComplete={[Function]}
+/>,
+}
+`;
+
+exports[`ColorPicker event handlers handleChangeComplete 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    data-jsx={3085166267}
+>
+    foo
+    <div
+        className="picker-frame"
+        data-jsx={3085166267}
+    >
+        <div
+            className="picker"
+            data-jsx={3085166267}
+            onClick={[Function]}
+            style={
+                Object {
+                    "backgroundColor": "#abc",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="popover"
+        data-jsx={3085166267}
+    >
+        <div
+            className="cover"
+            data-jsx={3085166267}
+            onClick={[Function]}
+        />
+        <ColorPicker
+            color="#abc"
+            disableAlpha={true}
+            onChangeComplete={[Function]}
+        />
+    </div>
+    <_class
+        css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+    /*@ sourceURL=color-picker.js */"
+        styleId={3085166267}
+    />
+</label>,
+  "nodes": Array [
+    <label
+      data-jsx={3085166267}
+>
+      foo
+      <div
+            className="picker-frame"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="picker"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "backgroundColor": "#abc",
+                            }
+                  }
+            />
+      </div>
+      <div
+            className="popover"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="cover"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+            />
+            <ColorPicker
+                  color="#abc"
+                  disableAlpha={true}
+                  onChangeComplete={[Function]}
+            />
+      </div>
+      <_class
+            css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+      /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+      /*@ sourceURL=color-picker.js */"
+            styleId={3085166267}
+      />
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ColorPicker
+        color="#abc"
+        label="foo"
+        onChangeComplete={[Function]}
+/>,
+      "_debugID": 11,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ColorPicker {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleChangeComplete": [Function],
+        "handleClick": [Function],
+        "handleClose": [Function],
+        "props": Object {
+          "color": "#abc",
+          "label": "foo",
+          "onChangeComplete": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "color": "#abc",
+          "displayColorPicker": true,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 3,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+        "_debugID": 12,
+        "_renderedOutput": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ColorPicker
+    color="#abc"
+    label="foo"
+    onChangeComplete={[Function]}
+/>,
+}
+`;
+
+exports[`ColorPicker event handlers handleClick 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    data-jsx={3085166267}
+>
+    foo
+    <div
+        className="picker-frame"
+        data-jsx={3085166267}
+    >
+        <div
+            className="picker"
+            data-jsx={3085166267}
+            onClick={[Function]}
+            style={
+                Object {
+                    "backgroundColor": "#abc",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="popover"
+        data-jsx={3085166267}
+    >
+        <div
+            className="cover"
+            data-jsx={3085166267}
+            onClick={[Function]}
+        />
+        <ColorPicker
+            color="#abc"
+            disableAlpha={true}
+            onChangeComplete={[Function]}
+        />
+    </div>
+    <_class
+        css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+    /*@ sourceURL=color-picker.js */"
+        styleId={3085166267}
+    />
+</label>,
+  "nodes": Array [
+    <label
+      data-jsx={3085166267}
+>
+      foo
+      <div
+            className="picker-frame"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="picker"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "backgroundColor": "#abc",
+                            }
+                  }
+            />
+      </div>
+      <div
+            className="popover"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="cover"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+            />
+            <ColorPicker
+                  color="#abc"
+                  disableAlpha={true}
+                  onChangeComplete={[Function]}
+            />
+      </div>
+      <_class
+            css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+      /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+      /*@ sourceURL=color-picker.js */"
+            styleId={3085166267}
+      />
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ColorPicker
+        color="#abc"
+        label="foo"
+        onChangeComplete={[Function]}
+/>,
+      "_debugID": 7,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ColorPicker {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleChangeComplete": [Function],
+        "handleClick": [Function],
+        "handleClose": [Function],
+        "props": Object {
+          "color": "#abc",
+          "label": "foo",
+          "onChangeComplete": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "color": "#abc",
+          "displayColorPicker": true,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+        "_debugID": 8,
+        "_renderedOutput": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ColorPicker
+    color="#abc"
+    label="foo"
+    onChangeComplete={[Function]}
+/>,
+}
+`;
+
+exports[`ColorPicker event handlers handleClose 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    data-jsx={3085166267}
+>
+    foo
+    <div
+        className="picker-frame"
+        data-jsx={3085166267}
+    >
+        <div
+            className="picker"
+            data-jsx={3085166267}
+            onClick={[Function]}
+            style={
+                Object {
+                    "backgroundColor": "#abc",
+                  }
+            }
+        />
+    </div>
+    <_class
+        css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+    /*@ sourceURL=color-picker.js */"
+        styleId={3085166267}
+    />
+</label>,
+  "nodes": Array [
+    <label
+      data-jsx={3085166267}
+>
+      foo
+      <div
+            className="picker-frame"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="picker"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "backgroundColor": "#abc",
+                            }
+                  }
+            />
+      </div>
+      <_class
+            css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+      /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+      /*@ sourceURL=color-picker.js */"
+            styleId={3085166267}
+      />
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ColorPicker
+        color="#abc"
+        label="foo"
+        onChangeComplete={[Function]}
+/>,
+      "_debugID": 9,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ColorPicker {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleChangeComplete": [Function],
+        "handleClick": [Function],
+        "handleClose": [Function],
+        "props": Object {
+          "color": "#abc",
+          "label": "foo",
+          "onChangeComplete": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "color": "#abc",
+          "displayColorPicker": false,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+        "_debugID": 10,
+        "_renderedOutput": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ColorPicker
+    color="#abc"
+    label="foo"
+    onChangeComplete={[Function]}
+/>,
+}
+`;
+
+exports[`ColorPicker handleChangeComplete 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    data-jsx={3085166267}
+>
+    foo
+    <div
+        className="picker-frame"
+        data-jsx={3085166267}
+    >
+        <div
+            className="picker"
+            data-jsx={3085166267}
+            onClick={[Function]}
+            style={
+                Object {
+                    "backgroundColor": "#abc",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="popover"
+        data-jsx={3085166267}
+    >
+        <div
+            className="cover"
+            data-jsx={3085166267}
+            onClick={[Function]}
+        />
+        <ColorPicker
+            color="#abc"
+            disableAlpha={true}
+            onChangeComplete={[Function]}
+        />
+    </div>
+    <_class
+        css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+    /*@ sourceURL=color-picker.js */"
+        styleId={3085166267}
+    />
+</label>,
+  "nodes": Array [
+    <label
+      data-jsx={3085166267}
+>
+      foo
+      <div
+            className="picker-frame"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="picker"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "backgroundColor": "#abc",
+                            }
+                  }
+            />
+      </div>
+      <div
+            className="popover"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="cover"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+            />
+            <ColorPicker
+                  color="#abc"
+                  disableAlpha={true}
+                  onChangeComplete={[Function]}
+            />
+      </div>
+      <_class
+            css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+      /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+      /*@ sourceURL=color-picker.js */"
+            styleId={3085166267}
+      />
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ColorPicker
+        color="#abc"
+        label="foo"
+        onChangeComplete={[Function]}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ColorPicker {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleChangeComplete": [Function],
+        "handleClick": [Function],
+        "handleClose": [Function],
+        "props": Object {
+          "color": "#abc",
+          "label": "foo",
+          "onChangeComplete": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "color": "#abc",
+          "displayColorPicker": true,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+        "_debugID": 2,
+        "_renderedOutput": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ColorPicker
+    color="#abc"
+    label="foo"
+    onChangeComplete={[Function]}
+/>,
+}
+`;
+
+exports[`ColorPicker handleClick 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    data-jsx={3085166267}
+>
+    foo
+    <div
+        className="picker-frame"
+        data-jsx={3085166267}
+    >
+        <div
+            className="picker"
+            data-jsx={3085166267}
+            onClick={[Function]}
+            style={
+                Object {
+                    "backgroundColor": "#abc",
+                  }
+            }
+        />
+    </div>
+    <div
+        className="popover"
+        data-jsx={3085166267}
+    >
+        <div
+            className="cover"
+            data-jsx={3085166267}
+            onClick={[Function]}
+        />
+        <ColorPicker
+            color="#abc"
+            disableAlpha={true}
+            onChangeComplete={[Function]}
+        />
+    </div>
+    <_class
+        css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+    /*@ sourceURL=color-picker.js */"
+        styleId={3085166267}
+    />
+</label>,
+  "nodes": Array [
+    <label
+      data-jsx={3085166267}
+>
+      foo
+      <div
+            className="picker-frame"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="picker"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "backgroundColor": "#abc",
+                            }
+                  }
+            />
+      </div>
+      <div
+            className="popover"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="cover"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+            />
+            <ColorPicker
+                  color="#abc"
+                  disableAlpha={true}
+                  onChangeComplete={[Function]}
+            />
+      </div>
+      <_class
+            css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+      /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+      /*@ sourceURL=color-picker.js */"
+            styleId={3085166267}
+      />
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ColorPicker
+        color="#abc"
+        label="foo"
+        onChangeComplete={[Function]}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ColorPicker {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleChangeComplete": [Function],
+        "handleClick": [Function],
+        "handleClose": [Function],
+        "props": Object {
+          "color": "#abc",
+          "label": "foo",
+          "onChangeComplete": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "color": "#abc",
+          "displayColorPicker": true,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+        "_debugID": 2,
+        "_renderedOutput": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <div
+                    className="popover"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="cover"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                    />
+                    <ColorPicker
+                              color="#abc"
+                              disableAlpha={true}
+                              onChangeComplete={[Function]}
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ColorPicker
+    color="#abc"
+    label="foo"
+    onChangeComplete={[Function]}
+/>,
+}
+`;
+
+exports[`ColorPicker handleClose 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    data-jsx={3085166267}
+>
+    foo
+    <div
+        className="picker-frame"
+        data-jsx={3085166267}
+    >
+        <div
+            className="picker"
+            data-jsx={3085166267}
+            onClick={[Function]}
+            style={
+                Object {
+                    "backgroundColor": "#abc",
+                  }
+            }
+        />
+    </div>
+    <_class
+        css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+    /*@ sourceURL=color-picker.js */"
+        styleId={3085166267}
+    />
+</label>,
+  "nodes": Array [
+    <label
+      data-jsx={3085166267}
+>
+      foo
+      <div
+            className="picker-frame"
+            data-jsx={3085166267}
+      >
+            <div
+                  className="picker"
+                  data-jsx={3085166267}
+                  onClick={[Function]}
+                  style={
+                        Object {
+                              "backgroundColor": "#abc",
+                            }
+                  }
+            />
+      </div>
+      <_class
+            css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+      /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+      /*@ sourceURL=color-picker.js */"
+            styleId={3085166267}
+      />
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ColorPicker
+        color="#abc"
+        label="foo"
+        onChangeComplete={[Function]}
+/>,
+      "_debugID": 9,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ColorPicker {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleChangeComplete": [Function],
+        "handleClick": [Function],
+        "handleClose": [Function],
+        "props": Object {
+          "color": "#abc",
+          "label": "foo",
+          "onChangeComplete": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "color": "#abc",
+          "displayColorPicker": false,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+        "_debugID": 10,
+        "_renderedOutput": <label
+          data-jsx={3085166267}
+>
+          foo
+          <div
+                    className="picker-frame"
+                    data-jsx={3085166267}
+          >
+                    <div
+                              className="picker"
+                              data-jsx={3085166267}
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "backgroundColor": "#abc",
+                                                }
+                              }
+                    />
+          </div>
+          <_class
+                    css="label[data-jsx=\\"3085166267\\"] {position: relative;}.picker-frame[data-jsx=\\"3085166267\\"] {border: 1px solid rgba(0, 0, 0, 1);height: 40px;margin-top: 4px;padding: 4px;width: 140px;}.picker[data-jsx=\\"3085166267\\"] {cursor: pointer;height: 100%;width: 100%;}.popover[data-jsx=\\"3085166267\\"] {position: absolute;top: 70px;z-index: 2;}.cover[data-jsx=\\"3085166267\\"] {bottom: 0;left: 0;position: fixed;right: 0;top: 0;}
+          /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yLXBpY2tlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtRG9CLEFBQ0gsOEJBQ2MsbUJBQ3BCLENBRWMsc0NBQ2lDLDhDQUNqQyxhQUNHLGdCQUNILGFBQ0EsYUFDZCxDQUVRLGdDQUNTLGdCQUNILGFBQ0QsWUFDYixDQUVTLGlDQUNXLG1CQUNULFVBQ0MsV0FDWixDQUVPLCtCQUNJLFVBQ0YsUUFDUSxnQkFDUCxTQUNGLE9BQ1IiLCJmaWxlIjoiY29sb3ItcGlja2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHsgU2tldGNoUGlja2VyIH0gZnJvbSAncmVhY3QtY29sb3InXG5pbXBvcnQgeyBjb2xvcnMgfSBmcm9tICcuLi9zdHlsZXMvdGhlbWUnXG5cbmNsYXNzIENvbG9yUGlja2VyIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgICB0aGlzLnN0YXRlID0ge1xuICAgICAgZGlzcGxheUNvbG9yUGlja2VyOiBmYWxzZSxcbiAgICAgIGNvbG9yOiBwcm9wcy5jb2xvclxuICAgIH1cbiAgfVxuXG4gIGhhbmRsZUNsaWNrID0gKCkgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBkaXNwbGF5Q29sb3JQaWNrZXI6ICF0aGlzLnN0YXRlLmRpc3BsYXlDb2xvclBpY2tlciB9KVxuICB9XG5cbiAgaGFuZGxlQ2xvc2UgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7IGRpc3BsYXlDb2xvclBpY2tlcjogZmFsc2UgfSlcbiAgfVxuXG4gIGhhbmRsZUNoYW5nZUNvbXBsZXRlID0gY29sb3IgPT4ge1xuICAgIHRoaXMuc2V0U3RhdGUoeyBjb2xvcjogY29sb3IuaGV4IH0pO1xuICAgIHRoaXMucHJvcHMub25DaGFuZ2VDb21wbGV0ZShcbiAgICAgIHRoaXMucHJvcHMubGFiZWwudG9Mb3dlckNhc2UoKSxcbiAgICAgIGNvbG9yLmhleC5zbGljZSgxKVxuICAgIClcbiAgfTtcblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsYWJlbD5cbiAgICAgICAge3RoaXMucHJvcHMubGFiZWx9XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXItZnJhbWUnPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdwaWNrZXInXG4gICAgICAgICAgICBvbkNsaWNrPXt0aGlzLmhhbmRsZUNsaWNrfVxuICAgICAgICAgICAgc3R5bGU9e3sgYmFja2dyb3VuZENvbG9yOiB0aGlzLnN0YXRlLmNvbG9yIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAge3RoaXMuc3RhdGUuZGlzcGxheUNvbG9yUGlja2VyID9cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ncG9wb3Zlcic+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nY292ZXInIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9IC8+XG4gICAgICAgICAgICA8U2tldGNoUGlja2VyXG4gICAgICAgICAgICAgIGNvbG9yPXt0aGlzLnN0YXRlLmNvbG9yfVxuICAgICAgICAgICAgICBkaXNhYmxlQWxwaGE9e3RydWV9XG4gICAgICAgICAgICAgIG9uQ2hhbmdlQ29tcGxldGU9e3RoaXMuaGFuZGxlQ2hhbmdlQ29tcGxldGV9XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvZGl2PiA6IG51bGx9XG5cbiAgICAgICAgeyAvKmxhbmd1YWdlPVNDU1MqLyB9XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICBsYWJlbCB7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLnBpY2tlci1mcmFtZSB7XG4gICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbG9ycy5wcmltYXJ5fTtcbiAgICAgICAgICAgIGhlaWdodDogNDBweDtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIHBhZGRpbmc6IDRweDtcbiAgICAgICAgICAgIHdpZHRoOiAxNDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucGlja2VyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5wb3BvdmVyIHtcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICAgIHRvcDogNzBweDtcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgICAgICAgICByaWdodDogMDtcbiAgICAgICAgICAgIHRvcDogMDtcbiAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDwvbGFiZWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENvbG9yUGlja2VyXG4iXX0= */
+          /*@ sourceURL=color-picker.js */"
+                    styleId={3085166267}
+          />
+</label>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ColorPicker
+    color="#abc"
+    label="foo"
+    onChangeComplete={[Function]}
+/>,
+}
+`;

@@ -1,7 +1,7 @@
 import React from 'react'
 import ThemeButton from '../../../src/components/theme-button'
 import renderer from 'react-test-renderer'
-import { indetity } from '../test-utils'
+import { indetity } from '../utils'
 
 test('ThemeButton component active and no theme', () => {
   const component = renderer.create(
